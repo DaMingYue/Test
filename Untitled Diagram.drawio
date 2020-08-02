@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-02T03:52:44.135Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="1FWHrwIsWwK_uNLEwG5C" version="13.5.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-02T03:58:42.059Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36" etag="0xjDqmykJjpwYChX6HHB" version="13.5.8" type="github">
   <diagram id="BlNZQTCQzSflpBD7ECJl" name="Page-1">
     <mxGraphModel dx="898" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,29 +66,41 @@
         <mxCell id="i4Izgy9UsieF2bt6bf6w-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="i4Izgy9UsieF2bt6bf6w-19" target="i4Izgy9UsieF2bt6bf6w-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="8QEQ6UCsPWhdxD2jkc4d-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i4Izgy9UsieF2bt6bf6w-19" target="8QEQ6UCsPWhdxD2jkc4d-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="i4Izgy9UsieF2bt6bf6w-19" value="sb=&quot;21 &quot;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="290" y="810" width="120" height="36" as="geometry" />
+          <mxGeometry x="290" y="760" width="120" height="36" as="geometry" />
         </mxCell>
         <mxCell id="i4Izgy9UsieF2bt6bf6w-21" value="0转为空格" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="470" y="570" width="120" height="56" as="geometry" />
+          <mxGeometry x="470" y="592" width="120" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="8QEQ6UCsPWhdxD2jkc4d-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="i4Izgy9UsieF2bt6bf6w-23" target="8QEQ6UCsPWhdxD2jkc4d-20">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i4Izgy9UsieF2bt6bf6w-23" value="res=21" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="290" y="910" width="120" height="36" as="geometry" />
         </mxCell>
         <mxCell id="8QEQ6UCsPWhdxD2jkc4d-1" value="int&amp;nbsp;res = i;l" style="shape=tape;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="188" width="120" height="100" as="geometry" />
+          <mxGeometry y="188" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="8QEQ6UCsPWhdxD2jkc4d-3" value="if(i&amp;lt;0)" style="shape=tape;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="288" width="120" height="100" as="geometry" />
+          <mxGeometry y="288" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="8QEQ6UCsPWhdxD2jkc4d-5" value="String str = Integer.toString(res);" style="shape=tape;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="388" width="180" height="80" as="geometry" />
+          <mxGeometry y="388" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="8QEQ6UCsPWhdxD2jkc4d-10" value="char []cs = str.toCharArray();" style="shape=tape;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="480" width="190" height="70" as="geometry" />
+          <mxGeometry y="480" width="210" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="8QEQ6UCsPWhdxD2jkc4d-14" value="&lt;span&gt;char []cs2 = new char[cs.length];&lt;/span&gt;&lt;br&gt;&lt;div&gt;for (int j=0;j&amp;lt;cs.length;j++){&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;cs2[j]=cs[cs.length-1-j];&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;if(cs2[j]==&#39;0&#39;){&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; &amp;nbsp;cs[j]=&#39; &#39;;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;}&lt;/div&gt;&lt;/blockquote&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="560" width="200" height="120" as="geometry" />
+        <mxCell id="8QEQ6UCsPWhdxD2jkc4d-14" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;char []cs2 = new char[cs.length];&lt;/span&gt;&lt;/div&gt;&lt;div&gt;for (int j=0;j&amp;lt;cs.length;j++){&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;cs2[j]=cs[cs.length-1-j];&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&lt;blockquote style=&quot;margin: 0 0 0 40px ; border: none ; padding: 0px&quot;&gt;&lt;div style=&quot;text-align: left&quot;&gt;if(cs2[j]==&#39;0&#39;){&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;&amp;nbsp; &amp;nbsp;cs[j]=&#39; &#39;;&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;}&lt;/div&gt;&lt;/blockquote&gt;&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry y="560" width="210" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8QEQ6UCsPWhdxD2jkc4d-16" value="&lt;div&gt;&amp;nbsp; StringBuilder sb = new StringBuilder();&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; for (int j=0;j&amp;lt;cs2.length;j++){&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; sb.append(cs2[j]);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;align=left;" vertex="1" parent="1">
+          <mxGeometry y="718" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="8QEQ6UCsPWhdxD2jkc4d-20" value="res=Integer.parseInt(sb.toString().trim());" style="shape=tape;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="878" width="230" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
